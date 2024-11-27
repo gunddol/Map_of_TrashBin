@@ -1,0 +1,1978 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>도로명 추출</title>
+    </head>
+    <body>
+     <table
+    id="result-table-location"
+    class="table table-bordered table-striped table-location-list dataTable"
+    style="width: 100%;">
+    <colgroup>
+        <col style="width: 74px;">
+            <col style="width: 942px;"></colgroup>
+            <thead>
+                <tr class="table-secondary" role="row">
+                    <th
+                        data-priority="2"
+                        data-dt-column="0"
+                        rowspan="1"
+                        colspan="1"
+                        class="dt-orderable-none"
+                        aria-label="위치">
+                        <span class="dt-column-title">위치</span>
+                        <span class="dt-column-order"></span>
+                    </th>
+                    <th
+                        data-priority="1"
+                        data-dt-column="1"
+                        rowspan="1"
+                        colspan="1"
+                        class="dt-orderable-asc dt-orderable-desc"
+                        aria-label="주소: Activate to sort"
+                        tabindex="0">
+                        <span class="dt-column-title" role="button">주소</span>
+                        <span class="dt-column-order"></span>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7204">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                596</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 장터5가길 48</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7177">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                6-13</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 용답길 167</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7205">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                611</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 무수막길 37</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7120">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                613</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 둘레길 119</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7202">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                622-1</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 무수막길 41-4</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7203">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                630</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 무수막길 49</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7123">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                632-1</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 둘레15길 2</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7122">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                642-2</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 둘레길 111-1</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7124">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                642-2</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 둘레길 111-1</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7121">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                646-1</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 둘레17길 3-1</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7056">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-1041</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 왕십리로10길 5-13</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7055">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-1044</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 왕십리로10길 3</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7051">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-1091</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 뚝섬로1가길 17</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7049">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-1212</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 왕십리로2길 20</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7053">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-1229</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 왕십리로4길 13</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7070">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-1238</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 아차산로1길 25</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7044">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-1244</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 뚝섬로1길 18</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7048">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-1567</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 뚝섬로1길 38</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7050">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-1657</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 성수일로3길 15</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7046">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-1824</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 왕십리로6길 30</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7058">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-1900</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 아차산로 33</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7037">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-243</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 성덕정길 25-60</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7035">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-260</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 성덕정1길 6</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7036">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-376</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 성덕정길 25-56</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7067">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-544</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 아차산로1가길 10</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7068">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-548</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 아차산로1길 12</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7069">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-701</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 아차산로1길 15</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7071">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-734</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 왕십리로16길 5</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7066">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                656-834</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 왕십리로14길 30-1</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7161">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                66-208</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 송정길 42</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7162">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                66-216</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 송정길 40</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7160">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                66-230</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 송정길 50</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7076">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                668-2</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 서울숲2길 30</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7077">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                668-22</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 서울숲4길 25</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7164">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                67-28</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 송정길 10-11</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7163">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                67-5</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 송정길 32</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7074">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                676-9</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 서울숲길 36</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7079">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                685-191</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 서울숲길 17</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7075">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                685-285</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 서울숲2길 26</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7073">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                685-317</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 서울숲길 52</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7072">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                685-405</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 서울숲길 37</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7078">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                685-580</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 왕십리로5길 3</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7125">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                695-1</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 성수이로2길 9-1</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7047">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                707</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 상원1길 17</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7025">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                72-10</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 성덕정5길 18-2</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7156">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                73-400</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 송정18가길 6-1</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7158">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                73-488</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 송정길 74</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7159">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                73-705</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 송정12바길23</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7157">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                73-936</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 송정16길 2</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7127">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                758-4</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 성수이로 10</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7126">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                764-1</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 성수이로 6</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7006">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                767-13</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 마장로39길 44</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7007">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                767-14</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 마장로39나길 3</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7014">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                775-4</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 마장로 276</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7015">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                776-1</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 마장로 270</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7008">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                778-4</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 마장로46길 12</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7009">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                778-7</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 마장로44길 17</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7010">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                783-3</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 마조로16길 37</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7011">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                783-4</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 마조로16길 31</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7013">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                794-3</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 마조로16길 1</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7022">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                798-4</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 마조로15가길 12</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7054">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                8-20</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 왕십리로4길 28-2</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7057">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                8-44</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 상원1길 42</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7020">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                801-15</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 마조로15길 21</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7019">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                801-4</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 마조로15길 25</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7021">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                815-14</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 마조로 67-10</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7023">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                815-8</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 마조로 63</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7016">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                816-31</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 마조로19길 41</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7118">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                830</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 둘레19길 7</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7155">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                84-10</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 동일로43길 8-1</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7196">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                88</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 무수막길 18길60</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="6980">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                890-103</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 왕십리로31나길 33</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="6979">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                890-110</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 왕십리로31나길 23</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="6983">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                890-125</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 왕십리로31길 17</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="6984">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                890-2</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 왕십리로33길 3</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7199">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                90</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 무수막길 15</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7154">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                90-7</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 동일로265</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7152">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                93</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 동일로55길 15</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="6981">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                946-20</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 왕십리로31가길 23</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7151">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                95</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 동일로57길 11</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7153">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                95-38</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 동일로55길 10</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="6975">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                959-13</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 왕십리로 345-2</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="6968">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                966-6</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 무학봉길 93-5</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7149">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                97</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 동일로 291</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7150">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                97-2</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 동일로 287</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="6969">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                973-15</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 무학봉21길 3</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="6972">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                973-9</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 무학봉길 69</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="6970">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                974-10</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 무학봉길 73</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="6977">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                976-12</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 왕십리로21라길 5</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="6976">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                979-1</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 무학봉길 68</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7206">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                986</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 장터5길 15</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="6973">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                986-79</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 무학봉15라길 11</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="6971">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                994-10</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 무학봉11길 2</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7213">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                서울특별시 성동구 금호동1가 167-19</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 행당로5길 7</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7210">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                서울특별시 성동구 금호동1가 1759</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 독서당로51길32</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7186">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                서울특별시 성동구 금호동2가 501-10</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 금호산 9가길14</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7043">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                서울특별시 성동구 성수동1가 14-68</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 상원2길 9</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7038">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                서울특별시 성동구 성수동1가 72-114</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 뚝섬로 341</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7219">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                서울특별시 성동구 옥수동 365-15</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 한림말1길 8</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="map-marker-wrapper">
+                            <div class="map-marker">
+                                <span class="marker-text"></span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="row" data-id="7216">
+                            <div class="col-12 col-lg-5">
+                                <span class="badge rounded-pill bg-dark">지번</span>
+                                서울특별시 성동구 옥수동 453-11</div>
+                            <div class="col-12 col-lg-7">
+                                <span class="badge rounded-pill bg-secondary">도로명</span>
+                                서울특별시 성동구 독서당로39길 37</div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                // 대상 테이블 선택
+                const table = document.getElementById('result-table-location');
+
+                if (table) {
+                    // 모든 행 가져오기
+                    const rows = table.querySelectorAll('tr');
+
+                    // 도로명 데이터를 저장할 배열
+                    const roadData = [];
+
+                    // 각 행을 순회하며 도로명 텍스트 추출
+                    rows.forEach(row => {
+                        const roadElement = row.querySelector('.col-12.col-lg-7'); // 도로명 위치
+
+                        if (roadElement) {
+                            const roadText = roadElement
+                                .textContent
+                                .replace('도로명', '')
+                                .trim(); // "도로명" 제거
+                            roadData.push(roadText);
+                        }
+                    });
+
+                    // 추출한 도로명 데이터를 배열 형태로 출력
+                    console.log(JSON.stringify(roadData));
+                } else {
+                    console.error('Table element not found');
+                }
+            });
+        </script>
+    </body>
+</html>
