@@ -22,8 +22,8 @@
         // 맵 초기화
         const mapContainer = document.getElementById('map');
         const mapOption = {
-            center: new kakao.maps.LatLng(37.5665, 126.9780), // 초기 중심 좌표
-            level: 5, // 확대 수준
+            center: new kakao.maps.LatLng(37.544437, 127.056433), // 초기 중심 좌표
+            level: 4, // 확대 수준
         };
         const map = new kakao.maps.Map(mapContainer, mapOption);
 
@@ -34,6 +34,17 @@
         const markerImages = {
             blue: 'https://ita.city/CSV6/public/img/baroo_icon/material_icons/%EC%9D%BC%EB%B0%98.svg', // 일반
             red: 'https://ita.city/CSV6/public/img/baroo_icon/material_icons/%EC%9D%98%EB%A5%98.svg',   // 의류
+        };
+
+        // 로컬 스토리지에 핀 정보 저장
+        const savePins = (pins) => {
+            localStorage.setItem('pins', JSON.stringify(pins));
+        };
+
+        // 로컬 스토리지에서 핀 정보 불러오기
+        const loadPins = () => {
+            const pins = localStorage.getItem('pins');
+            return pins ? JSON.parse(pins) : [];
         };
 
         // 핀 찍기 함수 (색상 지정 가능)
@@ -66,6 +77,11 @@
 
             // 영역 확장
             bounds.extend(coords);
+
+            // 로컬 저장소에 현재 핀 정보 저장
+            let savedPins = loadPins();
+            savedPins.push({ lat, lng, content, color });
+            savePins(savedPins);
         };
 
         // 주소를 좌표로 변환하는 함수
@@ -103,12 +119,23 @@
             }
         };
 
+        // 페이지 로드 시 저장된 핀들을 지도에 표시
+        const loadSavedPins = () => {
+            const savedPins = loadPins();
+            savedPins.forEach(pin => {
+                addMarker(pin.lat, pin.lng, pin.content, pin.color);
+            });
+        };
+
         // 실행
         const initMap = async () => {
             await processLocations(locations, 'blue'); // locations.js에 있는 주소: 파란색
             await processLocations(locations2, 'red'); // locations2.js에 있는 주소: 빨간색
             // 모든 마커가 보이도록 지도 영역 설정
             map.setBounds(bounds);
+
+            // 저장된 핀 정보가 있으면 다시 표시
+            loadSavedPins();
         };
 
         initMap();
